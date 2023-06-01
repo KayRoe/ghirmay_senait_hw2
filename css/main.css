@@ -1,0 +1,75 @@
+/*---General Styles--- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+
+section p {
+    padding-left: 10px;
+}
+
+section h2 {
+    padding-left: 10px;
+}
+
+
+section h3 {
+    padding-left: 10px;
+}
+
+
+/* ---End of General Styles--- */
+
+
+
+#product1, #product2, #service1, #service2, #service3, #service4, #service5, #service6 {
+    height: 150px;
+} 
+
+#hero {
+    height: 310px;
+}
+ 
+#footer{
+    height: 180px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    #product1, #product2{
+        height: 210px;
+    } 
+    
+    #hero {
+        height: 410px;
+    }
+     
+    #service1, #service2, #service3, #service4, #service5, #service6 {
+        height: 315px;
+    }
+
+    #footer {
+        height: 280px;
+    }
+
+}
