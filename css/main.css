@@ -11,6 +11,12 @@ input, textarea {
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+    transition:all .5s ease-in-out;
+
+ }
+
 
 p, h1, h2, h3, h4, h5 {
     margin: 0px;
